@@ -8,7 +8,7 @@ export default function Todos() {
 
   function handleInput(e) {
     setInput(e.target.value);
-    // console.log();
+    console.log(e);
   }
   function addTodos() {
     setTodos([...todos, input]);
